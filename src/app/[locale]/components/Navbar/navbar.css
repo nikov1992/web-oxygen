@@ -1,0 +1,190 @@
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 0.5rem 0rem;
+    background-color: rgba(13, 44, 65, 0.5);
+    color: var(--white);
+    font-family: var(--montserrat);
+    z-index: 1;
+    font-size: 15px;
+    
+  }
+  .brand-name {
+    text-decoration: none;
+    color:#276D70;
+    font-size: 2rem;
+    margin-left: 1.3rem;
+    max-width: 200px;
+    height: auto;
+  
+  }
+  .navigation-menu {
+    margin-left: auto;
+  }
+
+  .navigation-menu li:hover{
+
+    text-decoration: underline;
+    text-decoration-thickness: 2px ;
+    cursor: pointer;
+  }
+  
+  .navigation-menu ul {
+    display: flex;
+    padding: 0;
+  }
+  .navigation-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+    padding: 0.9em;
+  }
+  .navigation-menu li a {
+    text-decoration: none;
+    color: var(--white);
+    display: block;
+    width: 100%;
+  }
+  .navBarButton {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #276D70;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  .navBarButton:hover {
+    background-color: var(--strong-green);
+  }
+
+  .linkComprar{
+    border: 1.4px solid white; 
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navBarButton {
+      display: block;
+    }
+
+    .navigation{
+      background-color: rgba(11, 39, 58, 0.3);
+      position: absolute;
+      z-index: 1;
+    }
+    .navigation-menu ul {
+      display: none;
+    }
+    .navigation-menu.expanded ul {
+      display: block;
+    }
+  
+    .navigation-menu ul {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      height: calc(100vh - 20px);
+      background-color: white;
+    }
+    .navigation-menu li {
+      text-align: right;
+      margin: 2vh 5vh;
+      font-weight: 700;
+    }
+    .navigation-menu li a {
+      color: #006A6A;
+      font-family: var(--montserrat);
+      width: 100%;
+      padding: 1.5rem 0;
+    }
+    .navigation-menu li:hover {
+      background-color: #6f8b8b;
+    }
+
+    .linkComprar{
+      border: 0;
+    }
+
+    .brand-name{
+      
+      max-width: 150px;
+      height: 40px;
+      
+
+    }
+
+    
+
+    
+}
+
+.dropdown-mob{
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 5.8rem;
+  padding: 0.9em;}
+
+  .dropbtn{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%
+  }
+  
+  .dropdown{
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 1rem;
+    padding: 0.9em;
+  
+  }
+  
+  .globoImg{
+    max-height: 20px;
+    width: auto;
+  }
+  
+  .flagImg{
+    max-width: 30px;
+    height: auto;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgba(11, 39, 58, 0.7);
+    z-index: 1;
+  }
+  
+  .dropdown-content a{
+    display: block;
+    width: 100%;
+  }
+  
+  .dropdown-content a:hover{
+    background-color: black;
+  }
+  
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+
+  .dropdown-mob:hover{
+    display: block;
+  }

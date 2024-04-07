@@ -1,0 +1,154 @@
+{
+    "Layout":{
+        "prevTitle": "Let's stop deforestation",
+        "prevButton":"Stop",
+        "title": "Invest for the environment",
+        "subtitle-1":"We protect trees from being cut down and conserve  ",
+        "subtitle-2":"native territories",
+        "button":"Start",
+        "data-content-1":"hectares",
+        "data-content-11":"of forest",
+        "data-content-2":"soccer",
+        "data-content-21":"stadiums",
+        "data-content-3":"offset",
+        "data-content-1-mobile":"hectares of forest",
+        "data-content-2-mobile":"soccer stadiums",
+        "data-content-3-mobile":"tn CO2 offset"
+    },
+
+    
+    "Services":{
+        "title":"SERVICES",
+        "subtitle-1":"PRESERVE",
+        "subtitle-2":"NATIVE TERRITORIES",
+        "text-1":"Native forests are one of the main producers",
+        "text-2":" of oxygen, they are essential for us and",
+        "text-3": " all living beings on the planet. For this reason, we must",
+        "text-4":"protect native territories from being deforested.",
+        "service-card-1-title":"Measure",
+        "service-card-1-text":"Know your environmental impact. Use the calculator and find out your CO2 emissions.",
+        "service-card-2-title":"Compensate",
+        "service-card-2-text":"Your purchase guarantees the protection of the forest. Save trees from being cut down and wildlife from being displaced.",
+        "service-card-2-link": "https://opensea.io/collection/theguardiansoftheforest",
+        "service-card-3-title":"Monitor",
+        "service-card-3-text":"Visualize the number of trees and species saved, and how much CO2 your investment absorbed in a year.",
+        "service-card-3-link": "https://opensea.io/collection/theguardiansoftheforest",
+        "see-more-btn":"See more "
+    },
+    "issuedTokens":{
+        "title": "ISSUED TOKENS",
+        "subtitle-1": "TREES ARE THE BEST TECHNOLOGY",
+        "subtitle-2":"TO STOP CLIMATE CHANGE",
+        "issued-token-1-title": "What is a token?",
+        "issued-token-1-text":"It is a virtual currency that represents a tradable asset or utility. It is stored in a digital wallet and allows the holder to use it for investment or economic purposes.",
+        "issued-token-2-title": "OM Token",
+        "issued-token-2-text": "This token is a digital certification of 1 m2 of native forest. With your purchase, you are protecting the forest forever.",
+        "issued-token-3-title":"OC Token",
+        "issued-token-3-text":"Day by day, trees absorb carbon from the atmosphere that we emit as humans. We measure how much carbon your (OM) absorbs and give you this token (OC) as a digital Carbon Offset certification."
+    },
+
+    "homeTokens":{
+        "progress-subtitle": "CARBON CREDITS",
+        "progress-title": "LET'S BE PART OF THE CHANGE",
+        "progress-circle": "Hectares protected",
+        "progress-text": "Being transparent is one of the aspects we value most in our company. Through this counter we can see our progress towards a better planet!",
+        "progress-span": "OUR GOAL",
+        "progress-span-2": "hectares"
+    },
+
+    "videoIntro":{
+        "title":"OUR MANIFESTO",
+        "subtitle-1": "BECOME CARBON",
+        "subtitle-2": "NEUTRAL, USE ",
+        "subtitle-3": "OXYGEN",
+        "text-1": "We want to change the conventional donation scheme",
+        "text-2": "in order to save native forests and open the market",
+        "text-3":"for an international valuation of native forest land!"
+    },
+
+    "partnerships":{
+        "title":"PARTNERSHIPS"
+    },
+
+    "phrase":{
+        "text-1": "The climate crisis is caused by us and the solutions must come",
+        "text-2":" from us. We have the tools: technology is on our ",
+        "text-3":"side",
+        "comment":"- Antonio Guterres, UN Secretary-General",
+        "button":"Start"
+    },
+
+    
+    "Navbar":{
+        "us": "About Us",
+        "project": "Projects",
+        "buy": "Buy",
+        "login": "Log in"
+    },
+
+    "Footer":{
+        "company":"Company",
+        "us-link":"About Us",
+        "projects-link": "Projects",
+        "contact-link": "Contact",
+        "news": "Subscribe to our newsletter",
+        "news-button": "Send"
+    },
+
+    "AboutUs":{
+        "title": "This is Oxygen.",
+        "mision-title": "Our mision",
+        "vision-title": "Our vision",
+        "mision-text": "Preserve the nature & endangered species that live between it, Help in the economic development of local communities and achieve and international valuation of native forest.",
+        "vision-text": " Following ONU's sustainability goals we want every company & person in the world to shout out loud: Go Green. The change is possible but we need to act now! Follow us in this adventure.",
+        "team-title-1":"OUR TEAM",
+        "team-title-2":"OXYGEN TEAM",
+        "joinus-title": "JOIN OXYGEN TO BE PART OF THE CHANGE!",
+        "tokenomics-title":"Income distribution"
+    },
+
+    "Project":{
+        "title-1":"Discover the forests ",
+        "title-2":"we are saving.",
+        "map-title-1":"OUR PROJECTS",
+        "map-title-2":"MEET THE AREAS WE ARE PRESERVING",
+        "button-projects": "Explore",
+        "see-map": "See map",
+        "laFlorencia-text":"La Florencia is divided into two estancias, the eastern and western parts. Together they cover an area of about 90,000 hectares in which we find forest environments, wetlands, sandy areas, among others. It is worth mentioning the confirmed presence of the yaguarete, the yurumi or anteater, the collared peccary and many other species of animals and plants. It is a key territory for the survival of the yaguarete (there are between 200 and 250 left in the wild and only 20 in the Gran Chaco of Argentina). It stands out for its proximity to the Impenetrable National Park, acting as a biological corridor between it and the province of Salta."
+     },
+
+     "Buy":{
+        "title": "Start to make the change",
+        "btn": "Buy",
+        "buy-now-title-1": "BUY A TOKEN",
+        "buy-now-title-2": "INVEST IN THE FUTURE OF THE PLANET",
+        "token-alert-title":"A TOKEN = A BETTER FUTURE",
+        "token-alert-text": "By purchasing a token you protect an area of the forest with all the flora and fauna that live in it."
+    },
+
+    "Team":{
+        "text-dante": "Business economist specialized in blockchain management. In crypto since 2015.",
+        "text-matteo": "Bachelor's degree student in Environmental Management. +10 years of experience in native forest conservation projects",
+        "text-franco": "Founder of Software & Marketing agency BlackBeaver. Founder of Digital Media Finguru.",
+        "text-emiliano":"Ex Vice-President of Argentine National park service. CEO of Banco de Bosques: NGO with more than 150.000 hectareas saved. Greenpeace advisor.",
+        "text-gustavo": "BID bank tokenomics & climate change advisor. Strategic director of Chronos: B2B crypto wallet.",
+        "text-guido": "Full stack Dev +10 years exp. Founder of Edeon Labs (sofware factory)",
+        "text-constanza": "Frontend Dev +2 years exp. Background in Chemical Engineering and Biotech.",
+        "text-delfina": "Environmental Science student. Coordinator at Seamos Bosques",
+        "text-malena":"Graphic, industrial and audio-visual designer. 2+ years exp."
+
+    },
+
+    "Login":{
+        "login-title":"Take action and preserve the enviroment",
+        "login-form-title": "Log In",
+        "email-field": "Email",
+        "password-field": "Password",
+        "login-btn": "Log In",
+        "forgot-password": "Forgot your Password?"
+    }
+
+
+
+
+}

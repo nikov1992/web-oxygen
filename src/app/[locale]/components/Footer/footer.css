@@ -1,0 +1,126 @@
+.footer{
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    background-color: var(--white);
+    
+    justify-content: center;
+}
+
+.footerSocials{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logoFooter{
+    width: 250px;
+    height: auto;
+}
+
+.socialsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.social{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    height: 40px;
+    width: 42px;
+    padding-top: 0.3em;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+
+
+.social:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+
+}
+
+
+.footer h3{
+    font-family: var(--montserrat);
+    font-size: 26px;
+    color: #0B273A;
+    font-weight: 700;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--montserrat);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footerRedirects h3{
+    padding-left: 1.2em;
+}
+
+.footerNewsletter{
+    display: flex;
+    align-items: center;
+
+}
+.footerNewsletter input{
+    padding: 0.7em;
+    border-radius: 20px;
+    border: solid 0.2px var(--strong-green);
+    width: 250px;
+    font-family: var(--montserrat);
+}
+
+.footerNewsletter button{
+    margin: 0.8em;
+    background-color: var(--strong-green);
+    padding: 0.8em;
+    width: 80px;
+    border: none;
+    border-radius: 25px;
+    color: var(--white);
+}
+
+.footerNewsletter button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.upbutton{
+    padding: 50px;   
+}
+
+.upbutton a{
+    padding: 1em;
+    background-color: var(--strong-green);
+    color:white;
+    border-radius: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+        gap: 20px;
+        justify-content: left;
+    }
+
+    .footerNewsletter{
+        display: block;
+    }
+}

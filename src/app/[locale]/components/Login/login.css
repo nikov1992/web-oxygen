@@ -1,0 +1,70 @@
+.loginForm{
+    display: grid;
+    flex-direction: column;
+    font-family: var(--montserrat);
+    min-width: 400px;
+}
+
+
+.loginForm h3{
+    font-size: clamp(20px, 2.22vw, 34px);
+    font-family: var(--montserrat);
+    text-align: center;
+}
+
+.loginFormImg{
+    max-width: 200px;
+    height: auto;
+    align-self: center;
+}
+
+.formField{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+}
+
+.formField label{
+    font-weight: 700;
+    font-size: clamp(14px, 1.11vw, 18px);
+    padding: 0.5em 0em;
+}
+
+.formField input{
+    border-radius: 10px;
+    max-height: 30px;
+    padding: 0.5em 1em;
+}
+
+.formField a{
+    padding: 1em 0;
+    font-weight: 600;
+    font-size: clamp(10px, 0.8vw, 14px);
+}
+
+.submitBtn{
+    background-color: var(--strong-green);
+    width: 100%;
+    align-self: center;
+    border:0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin: 0em 1em;
+    padding: 0.8em;
+}
+
+.submitBtn:hover{
+    cursor: pointer;
+    border: solid 1px var(--strong-green);
+    background-color: white;
+    color: var(--strong-green)
+
+}
+
+@media screen and (max-width: 768px) {
+    .loginForm{
+        max-width: 300px;
+        min-width: 100px;
+    }
+}

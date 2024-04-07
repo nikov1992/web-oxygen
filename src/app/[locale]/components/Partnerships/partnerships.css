@@ -1,0 +1,34 @@
+ .partnershipsSection h3{
+    font-size: 22px;
+    font-family: var(--dm-sans);
+    color: var(--white);
+   
+}
+
+.partnershipsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.partnershipsSection{
+    display: flex;
+    flex-direction: column;
+    background-color: #276D70;
+    padding: 4em;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.partner{
+    width: auto;
+    max-height: 50px;
+}

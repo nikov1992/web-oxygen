@@ -1,0 +1,15 @@
+###
+POST  http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+    "Name": "tes12t",
+    "Surname": "re12st",
+    "Email": "nicd@gmail.com",
+    "Company": "fangio",
+    "Country": "Argentina",
+    "Pass":"niasaqwesdaqwesasddddc"
+
+}
+
+

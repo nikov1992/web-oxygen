@@ -1,0 +1,117 @@
+.flip-card {
+    background-color: transparent;
+    width: 180px;
+    height: 320px;
+    perspective: 1000px; 
+    -webkit-transform: translateZ(0); 
+    transform: translateZ(0);
+   
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 180px;
+    height: 320px;
+    -webkit-transition: transform 0.8s;
+    transition: transform 0.8s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+
+
+  }
+  
+  .flip-card:hover .flip-card-inner {
+     -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 180px;
+    height: 320px;
+   -webkit-backface-visibility: hidden;  /*Safari */
+    backface-visibility: hidden;
+    border-radius: 20px;
+    border: 0;
+    -webkit-transform: translateZ(0); 
+    transform: translateZ(0);
+  
+    
+
+
+  }
+  
+  .flip-card-front {
+    border: 0;
+   
+  }
+  
+  .flip-card-front p{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: white;
+    font-size: 13px;
+    font-family: var(--montserrat);
+    padding: 0.3em;
+    
+    
+  }
+  .flip-card-back {
+    background-color: #006a6a;
+    color: white;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    padding:0.8em;
+  }
+
+  .flip-card-back h1{
+    font-size: 50px;
+    font-family: var(--dm-sans);
+    color: #94c0c0;
+    line-height: 20px;
+    font-weight: 700;
+    
+  }
+
+  .flip-card-back h2{
+    font-size: 25px;
+    font-family: var(--montserrat);
+    color: var(--white);
+    
+  }
+
+  .flip-card-back p{
+    font-size: 14px;
+    font-family: var(--dm-sans);
+    
+  }
+
+  .flip-card-back a{
+    
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--white);
+    padding: 10px;
+    padding-right: 80px;
+    background: linear-gradient(to right,#FFFFFF, transparent);   
+    border-radius: 20px;
+    font-family: var(--montserrat);
+    border: solid .71px #67D168;
+    
+    
+
+  }
+
+  .flip-card-back a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+  }
+
+
+

@@ -1,0 +1,554 @@
+/*PrevHome*/
+
+.prevHome{   
+    background-image: url("../../../../../public/assets/images/imgPrevia4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.hidePrevHome{
+    display: none;
+}
+
+.prevHomeLogo{
+    max-width: 240px;
+    height: auto;
+    padding: 1em;
+    position: absolute; 
+    top: 0;
+    left: 0;
+
+    
+}
+.prevHomeContainer{
+    text-align: center;
+}
+
+.prevHome h1{
+    color:var(--white);
+    font-size: 40px;
+    font-family: var(--montserrat);
+    margin-top: -2em;
+}
+
+.prevHome button{
+    padding: 0.5em 3em;
+    background-color: var(--strong-green);
+    border-radius: 20px;
+    border:0;
+    color:var(--white);
+    font-size: 14px;
+}
+
+.prevHome button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #3be23b 50%, #30a730 50%);
+    background-size: 200% 100%; 
+    background-position: right; 
+    transition: background-position 0.6s ease;   
+}
+.expandAnimation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient( #3be23b , #074907);
+    background-size: 200% 200%;
+    animation: expandGradient 2s forwards;
+  }
+  
+@keyframes expandGradient {
+    0% {
+          background-size: 100% 100%;
+        }
+
+    100%{
+        background-size: 200% 200%;
+    }
+      }
+  
+  
+.prevHomeHide{
+    display: none;
+}
+
+.loadingCircle {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-top: 4px solid #56a49e; 
+    animation: spin 1.5s linear infinite; 
+    z-index: 9999; 
+  }
+
+.loadingTree {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    z-index: 9999;
+    animation: notspin 1.5s linear infinite; 
+
+    
+    
+  }
+  
+ 
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes notspin {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    
+
+    .prevHome h1{
+        margin-top: -3em;
+    }
+
+    .prevHome{
+        background-image: url("../../../../../public/assets/images/imgPrevia4_mob.png");
+    }
+    
+}
+  
+  
+  
+
+/*Layout*/
+
+.layoutHome{
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    flex-direction: column;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+
+.videoLayout{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+   transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity;
+    min-width: 210vh;
+    min-height: 130vh;
+}
+
+
+
+
+.layoutHome h1{
+    font-family: var(--dm-sans);
+    color: var(--white);
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1em;
+    padding-top: 0.6em;
+
+}
+
+.layoutHome a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.layoutHome h3{
+    font-family: var(--montserrat);
+    color: var(--white);
+    font-size: 30px; 
+   font-weight: 600;
+   line-height: 1.3em;
+}
+
+.buttonHome{
+    max-width: 150px;
+    padding: 1em;
+    border-radius: 40px;
+    border:0;
+    background-color: var(--strong-green);
+   
+}
+
+.layoutHome button:hover{
+    cursor:pointer;
+    background-color: #56A49E;
+}
+
+.dataBoard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--white);
+    margin: 4em;
+    padding: 1em;
+    background: rgba(198, 189, 189, 0.4);
+    background-blend-mode: hard-light;
+    border-radius: 20px;
+    gap: 4em;
+    flex-wrap: wrap;
+
+}
+
+.dataBoardLine{
+    background-color: var(--white);
+    width: 3px;
+    height: 4em;
+    padding-top: 1em;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .dataBoardLine{
+        display: none;
+    }
+
+    .dataBoard{
+        padding: 0em;
+        margin: 2em;
+        gap: 0;
+    }
+
+    .dataContent p{
+        padding: 2px;
+        font-size: 20px;
+    }
+
+    
+}
+
+/*Services*/
+
+
+.servicesHome{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3em;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5em;
+}
+
+.servicesText h3{
+    color: #0B273A;
+    font-family: var(--dm-sans);
+    font-size: 30px;
+}
+
+.servicesText h1{
+    font-size: 40px;
+    font-family: var(--montserrat);
+    color: #006A6A;
+}
+
+.servicesText p{
+    font-family: var(--dm-sans);
+    color: black;
+    font-size: 20px;
+}
+
+.servicesContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+    margin-top: 20px;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .servicesContainer{
+        flex-direction: column;
+    }
+
+    .servicesHome{
+        flex-direction: column;
+    }
+}
+
+
+/*Tokens*/
+
+.tokensEmitidos h2{
+    font-size: 20px;
+    color:#0B273A;
+    font-family: var(--dm-sans);
+    font-weight: 700;
+}
+
+.tokensEmitidos h1{
+    font-size: 30px;
+    color: #006A6A;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: var(--montserrat);
+    
+}
+
+.tokensHome, .tokensEmitidos{
+    background-color: white;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tokensHome h1{
+    font-size: 48px;
+    color: #006A6A;
+    text-align: center;
+}
+
+.tokenContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.token{
+    max-width: 250px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/*token progress*/
+
+.tokensProgress{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: var(--montserrat);
+    padding: 20vh 0;
+
+}
+
+.tokensProgress h3{
+    margin:0;
+    font-size:clamp(16px, 1.5vw, 24px)
+}
+
+.tokensProgress h1{
+    margin:0.3em;
+    font-size: clamp(27px, 2.8vw, 34px);
+    color: #006A6A;
+    text-align: center;
+}
+.progressContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    width: 80%;
+}
+
+
+.progressCircle{
+    max-width: 350px;
+    height: auto;
+    background-color: none;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    border: solid #D9D9D9 2vh;
+
+}
+
+.progressCircleText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    height: auto;
+    padding: 2em;
+}
+
+.progressCircleText span{
+    font-size: clamp(30px, 4.44vw, 65px);
+    font-weight: 900;
+}
+
+.progressCircleText p{
+    font-size: clamp(18px, 1.4vw, 22px);
+}
+
+.progressText{
+    font-size: clamp(14px, 1.3vw, 19px);
+    width: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .progressText{
+        width: 80%;
+    }
+
+
+
+
+}    
+
+/*Video*/
+.videoPresentacion {
+    display: flex;
+    flex-direction: row;
+    background-color: #276D70;
+    padding: 4em;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.videoHome{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.videoText{
+    color: var(--white);
+}
+
+.videoText h3{
+    font-size: 22px;
+    font-family: var(--dm-sans);
+    color: #0B273A
+}
+
+.videoText h1{
+    font-size: 30px;
+    font-family: var(--montserrat);
+    font-weight: 700;
+
+}
+
+.videoText p{
+    font-size: 16px;
+    font-family: var(--montserrat);
+
+}
+
+@media screen and (max-width: 768px) {
+    .videoPresentacion{
+        padding: 0em;
+        gap: 1em;
+    }
+
+    .videoText{
+        padding: 1.5em;
+    }
+    
+}
+
+/*Phrase*/
+
+.phrase{
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url('../../../../../public/assets/images/imgTrees.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:var(--white);
+    
+}
+
+
+.phrase h2, .phrase p{
+    font-family: var(--montserrat);
+    
+}
+
+.phrase button{
+    max-width: 150px;
+    padding: 1em;
+    border-radius: 40px;
+    border:0;
+    background-color: var(--strong-green);
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.phrase button:hover{
+    cursor: pointer;
+    background-color: #276D70;
+
+}
+
+
+/*Tamaños Mobile*/
+@media screen and (max-width: 768px) {
+    .layoutHome h1{
+        font-size: 50px;
+        padding-top: 2em;
+    }
+
+    .layoutHome h3, .servicesText h3{
+        font-size: 26px;
+    }
+    
+    .servicesText h1{
+        font-size: 36px;
+    }
+
+    .servicesText p{
+        font-size: 15px;
+    }
+
+    .phrase h2{
+        font-size: 22px;
+    }
+}
