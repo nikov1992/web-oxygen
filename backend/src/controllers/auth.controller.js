@@ -38,7 +38,7 @@ async function register(req,res){
     else{
       newUsuario.save();
       console.log(newUsuario)
-      return res.status(201).json({ status: "Success", message: "Usuario registrado correctamente", redirect: "api/login" })
+      return res.status(201).json({ status: "Success", message: "Usuario registrado correctamente", redirect: "/login" })
     }
 }
 

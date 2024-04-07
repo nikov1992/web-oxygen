@@ -26,9 +26,7 @@ const RegisterForm = () => {
     let datosUsuario = {Pass : password,  Email : email}
     let datosUsuarioJson = JSON.stringify(datosUsuario);
 
-    console.log(datosUsuarioJson)
-    // Aquí puedes agregar la lógica para enviar la solicitud de inicio de sesión con los datos ingresados
-    
+    console.log(datosUsuarioJson)  
     const res = await fetch("https://web-oxygen-backend.onrender.com/login", {     
       method: 'POST',
           headers:
