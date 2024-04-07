@@ -47,7 +47,7 @@ const LoginForm = () => {
     console.log(datosUsuarioJson)
     // Aquí puedes agregar la lógica para enviar la solicitud de inicio de sesión con los datos ingresados
     
-    const res = await fetch("https://web-oxygen-backend.onrender.com/", {     
+    const res = await fetch("https://web-oxygen-backend.onrender.com/api/register", {     
       method: 'POST',
           headers:
           {
