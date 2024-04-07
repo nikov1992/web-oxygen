@@ -53,7 +53,7 @@ async function login (req ,res){
 
     if (emailUserDb && passUserDb && newUsuario.Email==emailUserDb.Email && newUsuario.Pass == passUserDb.Pass){
       console.log("user loged with: " + newUsuario.Email )
-      return res.status(201).json({ status: "logeado", message: "Usuario registrado correctamente", redirect: "/" })
+      return res.status(201).json({ status: "logeado", message: "Usuario registrado correctamente", redirect: "/registro" })
     }else{
       res.status(400).send({status:"Error",message:"EROOR EN LA AUTENTICACION"})
     }
